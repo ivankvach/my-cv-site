@@ -43,7 +43,7 @@ export default function Navigation() {
             }}
             className="text-2xl font-bold text-navy-900"
           >
-            Your Name
+            Ivan Kvach
           </motion.div>
           <ul className="hidden md:flex space-x-8">
             {navItems.map((item, index) => (

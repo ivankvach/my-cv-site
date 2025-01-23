@@ -61,21 +61,21 @@ export default function Contact() {
                   <ContactItem
                     icon={FaPhone}
                     title="Phone"
-                    content="123-456-7890"
+                    content="+491743546822"
                   />
                 </motion.div>
                 <motion.div variants={itemVariants}>
                   <ContactItem
                     icon={FaEnvelope}
                     title="Email"
-                    content="your.email@example.com"
+                    content="ivankvach6@gmail.com"
                   />
                 </motion.div>
                 <motion.div variants={itemVariants}>
                   <ContactItem
                     icon={FaMapMarkerAlt}
                     title="Address"
-                    content="123 Professional Street, City, State 12345"
+                    content="Kurfürstenstraße 7, 50469 Ense-Ruhne, Deutschland"
                   />
                 </motion.div>
               </motion.div>

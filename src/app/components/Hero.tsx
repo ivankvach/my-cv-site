@@ -122,9 +122,9 @@ export default function Hero() {
                     Address:
                   </h3>
                   <p className="text-navy-600">
-                    Kurfürstenstrase 7
+                    Kurfürstenstraße 7
                     <br />
-                    Ense, 59469
+                    59469 Ense-Ruhne, Deutschland
                   </p>
                 </motion.div>
               </motion.div>
@@ -133,10 +133,26 @@ export default function Hero() {
                 variants={containerVariants}
                 className="flex space-x-4 mt-8"
               >
-                <SocialIcon Icon={FaLinkedin} href="#" delay={0.6} />
-                <SocialIcon Icon={FaFacebookF} href="#" delay={0.7} />
-                <SocialIcon Icon={FaTwitter} href="#" delay={0.8} />
-                <SocialIcon Icon={FaInstagram} href="#" delay={0.9} />
+                <SocialIcon
+                  Icon={FaLinkedin}
+                  href="javascript:void(0)"
+                  delay={0.6}
+                />
+                <SocialIcon
+                  Icon={FaFacebookF}
+                  href="javascript:void(0)"
+                  delay={0.7}
+                />
+                <SocialIcon
+                  Icon={FaTwitter}
+                  href="javascript:void(0)"
+                  delay={0.8}
+                />
+                <SocialIcon
+                  Icon={FaInstagram}
+                  href="javascript:void(0)"
+                  delay={0.9}
+                />
               </motion.div>
             </motion.div>
           </div>
