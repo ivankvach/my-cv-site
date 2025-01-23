@@ -76,7 +76,7 @@ export default function Hero() {
                 transition={{ type: 'spring', stiffness: 300, damping: 10 }}
               >
                 <Image
-                  src="/placeholder.svg"
+                  src="/logo.png"
                   alt="Professional headshot"
                   width={400}
                   height={600}
@@ -95,13 +95,13 @@ export default function Hero() {
                 variants={itemVariants}
                 className="text-4xl font-bold text-navy-900 mb-2"
               >
-                Your Name
+                Ivan Kvach
               </motion.h1>
               <motion.h2
                 variants={itemVariants}
                 className="text-xl text-navy-600 mb-6"
               >
-                PROFESSIONAL TITLE
+                Software-Ingenieur / Fullstack Entwickler
               </motion.h2>
 
               <motion.div variants={containerVariants} className="space-y-4">
@@ -109,22 +109,22 @@ export default function Hero() {
                   <h3 className="text-sm font-semibold text-navy-900">
                     Phone:
                   </h3>
-                  <p className="text-navy-600">123-456-7890</p>
+                  <p className="text-navy-600">+491743546822</p>
                 </motion.div>
                 <motion.div variants={itemVariants}>
                   <h3 className="text-sm font-semibold text-navy-900">
                     Email:
                   </h3>
-                  <p className="text-navy-600">your.email@example.com</p>
+                  <p className="text-navy-600">ivankvach6@gmail.com</p>
                 </motion.div>
                 <motion.div variants={itemVariants}>
                   <h3 className="text-sm font-semibold text-navy-900">
                     Address:
                   </h3>
                   <p className="text-navy-600">
-                    123 Professional Street
+                    Kurfürstenstrase 7
                     <br />
-                    City, State 12345
+                    Ense, 59469
                   </p>
                 </motion.div>
               </motion.div>
